@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+    <script type="text/javascript">
+         
+        
+         var matematica = prompt("Digite '+' para somar, '-' para subtrair, '/' para dividir, '*' para multiplicar: ");
+       
+       if (matematica = '+' || '+') {
+            var soma1 = parseInt(prompt('Insira o primeiro numero '));       
+            var soma2 = parseInt(prompt('Insira o segundo número '));
+            var somar = soma1+soma2;
+            alert(somar);
+            
+            
+         } else if (matematica = '-' || '-') {
+            var sub1 = parseInt(prompt('Insira primeiro número '));       
+            var sub2 = parseInt(prompt('Insira segundo número '));
+            var diminuir = sub1-sub2;
+            alert(diminuir);
+            
+            
+         } else if (matematica = '/' || '/') {
+            var divisao1 = parseInt(prompt('Insira primeiro número '));       
+            var divisao2 = parseInt(prompt('Insira segundo número '));
+            var dividir = divisao1/divisao2;
+            alert(dividir);
+            
+            
+         } else if (matematica = '*' || '*') {
+            var multiplicacao1 = parseInt(prompt('Insira primeiro número '));       
+            var multiplicacao2 = parseInt(prompt('Insira segundo número '));
+            var multiplicar = m1*m2;
+            alert(multiplicar);
+         } 
+ 
+ 
+        
+ 
+ 
+    </script>
+</head>
+<body>
+ 
+</body>
+</html>
